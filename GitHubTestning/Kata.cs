@@ -47,6 +47,9 @@ namespace GitHubTestning
                 }
             }
 
+            //Detta lägger jag till nu
+            int test = 0;
+
             return sbText.ToString(); //sbText kommer retuneras efter att den konverteras till en sträng. 
         }
 
