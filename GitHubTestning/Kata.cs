@@ -20,7 +20,7 @@ namespace GitHubTestning
             char[] strChars = str.ToCharArray();
             StringBuilder sbText = new StringBuilder();
 
-            sbText.Append(strChars[0]);
+            sbText.Append(char.ToUpper(strChars[0]));
             bool check = false;
 
             for (int i = 1; i < strChars.Length; ++i) //går igenom input str
